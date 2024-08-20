@@ -59,7 +59,7 @@ const toggleRightVisibility = (entries) => {
 };
 
 const observer1 = new IntersectionObserver(toggleLeftVisibility, {
-    threshold: 0.2
+    threshold: 0.1
 });
 
 observer1.observe(aboutText);
@@ -67,7 +67,7 @@ observer1.observe(visionImg);
 observer1.observe(serviceText);
 
 const observer2 = new IntersectionObserver(toggleRightVisibility, {
-    threshold: 0.2
+    threshold: 0.1
 });
 
 observer2.observe(aboutImg);
