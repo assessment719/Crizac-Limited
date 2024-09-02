@@ -551,6 +551,10 @@ section {
     margin-bottom: 15px;
 }
 
+.follow {
+    margin: 20px 0;
+}
+
 .footer-info {
     color: #333;
 }
@@ -597,6 +601,25 @@ section {
 
 .footer-bottom-link:hover {
     text-decoration: underline;
+}
+
+.socialmedia i {
+    display: inline-block;
+    justify-content: center;
+    padding: 9px 9px 9px 12px;
+    cursor: pointer;
+    width: 1.1rem;
+    transform: scale(1.1);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.socialmedia i:hover {
+    color: #586994;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
 }
 
 .chat-widget {
