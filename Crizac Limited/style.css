@@ -91,9 +91,8 @@ header ul li:hover {
 .service-list {
     display: none;
     position: absolute;
-    top: 73%;
-    left: 48%;
-    transform: translateX(-50%);
+    top: 70%;
+    left: 39%;
     background-color: white;
     z-index: 10;
     border: none;
@@ -101,11 +100,26 @@ header ul li:hover {
     color: black;
     font-weight: normal;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    animation: servuceListIn 0.7s ease;
+}
+
+@keyframes servuceListIn {
+
+    0%{
+        transform: translateY(8%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .service-list p {
     padding: 10px;
     cursor: pointer;
+    border-bottom: 0.3px solid gray;
 }
 
 .service-list p:hover {
