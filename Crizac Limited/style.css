@@ -5,6 +5,10 @@
     border: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 #home {
     position: relative;
     width: 100%;
