@@ -54,7 +54,7 @@
 
 header {
     position: fixed;
-    width: 100vw;
+    width: 100%;
     display: flex;
     z-index: 10;
     justify-content: space-around;
